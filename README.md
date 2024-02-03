@@ -22,12 +22,16 @@ The dataset used to train the models was composed of 120 OCT B-scan images manua
 
 The challenge presented can be described as a binary semantic segmentation challenge; thus, the metrics used to assess the performance of the segmentation models were standard for such a challenge. In this work, we measured Sorensen–Dice coefficient (more commonly referred to as Dice), Recall, Pixel accuracy, and Precision.
 
-
-
 ## Methods
 The project is implemented in Python using the PyTorch framework for deep learning. The segmentation models, including UNET, UNET++, DRUNET, and SegResNet, are implemented and trained to accurately segment the choroidal layer from OCT scans. The SegResNet architecture emerged as the most suitable for the task.
 
 The thickness maps are generated using the SegResNet segmentation model. The maps are then classified for the presence of choroidal hyperpermeability using a ResNet-50-based classification model. The models are trained using a dataset composed of OCT scans from various pathologies, including healthy subjects, Central Serous Chorioretinopathy (CSCR) patients, and others.
+
+## Architecture
+![Schematic representation of the proposed architecture](resources/architecture.png)
+
+*Figure 19: Schematic representation of the proposed architecture. The overall pipeline is divided into two components, a choroidal segmentation model and a choroidal hyperpermeability (CH) classification model. The first component intakes the three-dimensional OCT scan and through a multitude of transformations outputs an enface scan and a thickness map. The second section is trained for detecting CH using thickness maps with an ICGA scan taken to confirm the presence of ICGA and thus serving as ground truth label for training.*
+
 
 ## Results
 
