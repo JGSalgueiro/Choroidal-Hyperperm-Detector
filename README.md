@@ -1,4 +1,4 @@
-# Master Thesis: Choroidal Segmentation and Hyperpermeability Classification
+# Choroidal Segmentation and Hyperpermeability Classification
 
 ## Description
 This repository contains the code and results for the master thesis titled "Choroidal Segmentation and Hyperpermeability Classification using OCT Scans." The thesis explores the development of a pipeline for accurate choroidal segmentation and automatic classification of choroidal hyperpermeability in Optical Coherence Tomography (OCT) scans.
