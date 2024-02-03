@@ -20,15 +20,7 @@ The dataset used to train the models was composed of 120 OCT B-scan images manua
 
 ## Evaluation Metrics
 
-The challenge presented can be described as a binary semantic segmentation challenge; thus, the metrics used to assess the performance of the segmentation models were standard for such a challenge. In this work, we measured Sorensen–Dice coefficient (more commonly referred to as Dice), Recall, Pixel accuracy, and Precision, described by the following formulas (TP: true positives, FP: False positives, FN: False Negatives, TN: True Negatives):
-
-**Dice Coefficient (Dice):** \( \frac{2 \times \text{TP}}{\text{TP} + \text{FP} + \text{TP} + \text{FN}} \)
-
-**Recall:** \( \frac{\text{TP}}{\text{TP} + \text{FN}} \)
-
-**Pixel Accuracy:** \( \frac{\text{TP} + \text{TN}}{\text{TP} + \text{TN} + \text{FN} + \text{FP} + \text{FN}} \)
-
-**Precision:** \( \frac{\text{TP}}{\text{TP} + \text{FP}} \)
+The challenge presented can be described as a binary semantic segmentation challenge; thus, the metrics used to assess the performance of the segmentation models were standard for such a challenge. In this work, we measured Sorensen–Dice coefficient (more commonly referred to as Dice), Recall, Pixel accuracy, and Precision.
 
 
 
