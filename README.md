@@ -55,4 +55,11 @@ The thickness maps are generated using the SegResNet segmentation model. The map
 ## Conclusion
 The SegResNet architecture showed superior performance in choroidal segmentation, leading to high-quality thickness maps. The automatic classification model achieved satisfactory overall accuracy but struggled with false negatives in positive cases. Future work could explore 3D approaches for improved accuracy and better handling of the challenging cases.
 
+## Data Usage and Patient Consent
+
+All medical data exams used to train the model were obtained with explicit consent from the patients for research purposes under fair use. The data has been anonymized to protect patient privacy.
+
+The medical imaging data used in this project were provided by Hospital Garcia da Orta and VRMCY. We express our gratitude to these institutions for their contribution to advancing medical research through the use of anonymized and consented data.
+
+
 Feel free to explore the code and results in the corresponding folders.
