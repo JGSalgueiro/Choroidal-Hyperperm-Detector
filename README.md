@@ -63,3 +63,12 @@ The medical imaging data used in this project were provided by Hospital Garcia d
 
 
 Feel free to explore the code and results in the corresponding folders.
+
+## Research Paper
+
+### [Widefield swept source optical coherence tomography for the monitoring of choroidal infiltrates](https://www.sciencedirect.com/science/article/pii/S2451993624001890?via%3Dihub#fig1)
+
+Choroidal Infiltrates (Cis) detection is traditionally done using invasive imaging. We herein report the usage of topographic choroidal thickness maps (ChT maps) and en face swept-source Optical Coherence Tomography (OCT) as a rapid and non-invasive technique to monitor Cis in a patient with Chronic Lymphocytic Leukemia.
+
+![Monitoring of choroidal infiltrates using the widefield swept-source Optical Coherence Tomography (OCT). (A) Fundus photography of the right eye at presentation shows multiple yellowish lesions at the posterior pole and nasal to the optic disk. (B) Widefield en face OCT slab at the choroid showed lesions with an oval shape distinct from choroidal vessels (yellow arrows). (C) Topographic choroidal thickness map (ChT map) shows multiples foci of increased choroidal thickness corresponding to the lesions seen in Fig. 1B (yellow arrows). (D) Cross-sectional OCT B-scan (yellow line at mosaic B) shows a homogenous internal pattern of the lesions overlying an area of increased transmission of the signal (yellow arrowheads). (D) Fundus photograph at follow-up (two weeks after the first evaluation) exhibits fading of choroidal lesions. The same inference was perceived with the analysis of en face OCT at the choroid (E), in the ChT map (F) and in the cross-sectional slab tracked with the prior exam (G).](resources/paper_img.png)
+
